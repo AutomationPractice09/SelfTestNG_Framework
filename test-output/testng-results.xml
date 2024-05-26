@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T16:21:37 IST" name="Default suite" finished-at="2024-05-26T16:21:43 IST" duration-ms="5402">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T16:21:37 IST" name="Default test" finished-at="2024-05-26T16:21:43 IST" duration-ms="5402">
+      <class name="swagLabs.TestCase.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:swagLabs.TestCase.LoginPageTest@49139829]" started-at="2024-05-26T16:21:37 IST" name="setup" finished-at="2024-05-26T16:21:41 IST" duration-ms="3865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:swagLabs.TestCase.LoginPageTest@49139829]" started-at="2024-05-26T16:21:41 IST" name="loginTest" finished-at="2024-05-26T16:21:42 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="verifyUrl()[pri:2, instance:swagLabs.TestCase.LoginPageTest@49139829]" started-at="2024-05-26T16:21:42 IST" name="verifyUrl" finished-at="2024-05-26T16:21:42 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method signature="verifyTitle()[pri:3, instance:swagLabs.TestCase.LoginPageTest@49139829]" started-at="2024-05-26T16:21:42 IST" name="verifyTitle" finished-at="2024-05-26T16:21:42 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swagLabs.TestCase.LoginPageTest@49139829]" started-at="2024-05-26T16:21:42 IST" name="tearDown" finished-at="2024-05-26T16:21:43 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swagLabs.TestCase.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
