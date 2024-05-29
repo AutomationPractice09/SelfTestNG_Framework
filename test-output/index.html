@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse--1332098634\testng-customsuite.xml</span>
+                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-909288802\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.InventoryPageTest" class="method navigator-link" hash-for-method="addTocart">addTocart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.LoginPageTest" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.InventoryPageTest" class="method navigator-link" hash-for-method="printAllProduct">printAllProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.LoginPageTest" class="method navigator-link" hash-for-method="verifyUrl">verifyUrl</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.InventoryPageTest" class="method navigator-link" hash-for-method="verifyProductCount">verifyProductCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="swagLabs.TestCase.InventoryPageTest" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,14 +136,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">swagLabs.TestCase.LoginPageTest</span>
+              <span class="class-name">swagLabs.TestCase.InventoryPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
+                  <a name="addTocart">
+                  </a> <!-- addTocart -->
+                  <span class="method-name">addTocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printAllProduct">
+                  </a> <!-- printAllProduct -->
+                  <span class="method-name">printAllProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductCount">
+                  </a> <!-- verifyProductCount -->
+                  <span class="method-name">verifyProductCount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -148,19 +167,12 @@
                   <span class="method-name">verifyTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUrl">
-                  </a> <!-- verifyUrl -->
-                  <span class="method-name">verifyUrl</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse--1332098634\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-909288802\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -169,7 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;swagLabs.TestCase.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;swagLabs.TestCase.InventoryPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -209,24 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'swagLabs.TestCase.LoginPageTest')
-data.setCell(0, 3, 1033);
+data.setCell(0, 1, 'printAllProduct')
+data.setCell(0, 2, 'swagLabs.TestCase.InventoryPageTest')
+data.setCell(0, 3, 132);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyTitle')
-data.setCell(1, 2, 'swagLabs.TestCase.LoginPageTest')
-data.setCell(1, 3, 25);
+data.setCell(1, 1, 'addTocart')
+data.setCell(1, 2, 'swagLabs.TestCase.InventoryPageTest')
+data.setCell(1, 3, 127);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyUrl')
-data.setCell(2, 2, 'swagLabs.TestCase.LoginPageTest')
-data.setCell(2, 3, 24);
+data.setCell(2, 1, 'verifyTitle')
+data.setCell(2, 2, 'swagLabs.TestCase.InventoryPageTest')
+data.setCell(2, 3, 45);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductCount')
+data.setCell(3, 2, 'swagLabs.TestCase.InventoryPageTest')
+data.setCell(3, 3, 41);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 345 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -252,27 +268,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">swagLabs.TestCase.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">swagLabs.TestCase.InventoryPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">3956 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyUrl</span>
-                <span class="method-start">5009 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setupPage</span>
+                <span class="method-start">4761 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">5049 ms</span>
+                <span class="method-start">5411 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">5085 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductCount</span>
+                <span class="method-start">5468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printAllProduct</span>
+                <span class="method-start">5521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addTocart</span>
+                <span class="method-start">5657 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -8,13 +8,13 @@ public class LoginPageTest extends BaseClass
   @Test (priority = 1)
   public void loginTest() 
   {
-	  lp.doLogin("standard_user", "secret_sauce");
+	  lp.doLogin("standard_user","secret_sauce");
   }
   
   @Test (priority = 2)
   public void verifyUrl() 
   {
-	  lp.titlePage();
+	  lp.pageURL();
   }
   
   @Test (priority = 3)

@@ -32,7 +32,7 @@ public class LoginPage
     	driver.findElement(button).click();
     }
     
-    public void titlePage()
+    public void pageURL()
     {
     	System.out.println("Application Title is: "+driver.getCurrentUrl());
     }
